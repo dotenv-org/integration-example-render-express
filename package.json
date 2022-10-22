@@ -1,0 +1,20 @@
+{
+  "name": "integration-example-render-express",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render with Dotenv Vault",
+  "main": "app.js",
+  "repository": "https://github.com/dotenv-org/integration-example-render-express",
+  "author": "Dotenv Developers",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv-vault-core": "^0.3.0",
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
